@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+           <h1>Novell services login</h1>
+    <form>
+           <label for="name">username:</label>
+           <input type="text" placeholder="Enter name" required> <br><br>
+
+           <label for="password">Enter password:</label>
+           <input type="password" placeholder="Enter password"> <br><br>
+
+           <label for="city">city of employment:</label>
+           <input type="email" placeholder="city"> <br><br>
+
+           <label for="CHOOSE a web server">web server:</label>
+              <!-- size attribute -->
+              <select>
+                       <option value="d" selected disabled>CHOOSE a web server:</option>
+                       <option value="a">server 1</option>
+                       <option value="b">server 2</option>
+                       <option value="c">server 3</option>
+              </select> <br>
+
+            
+              <label for="please specify your role">please specify your role:</label> <br>
+           <input type="radio" name="g">Male <br>
+           <input type="radio" name="g">Female <br>
+           <input type="radio" name="g">Custom <br>
+            </select> <br>
+
+            
+         <label for="SIGNLE SING-ON TO THE FOLLOWING">SIGNLE SING-ON TO THE FOLLOWING:</label> <br>
+           <input type="radio" name="g">MAD <br>
+           <input type="radio" name="g">PAYROOL <br>
+           <input type="radio" name="g">SELF-SERVICE <br>
+             </select> <br>
+
+            
+
+                    <input type="submit">
+                    <input type="reset">
+               
+    
+</body>
+<Head>
